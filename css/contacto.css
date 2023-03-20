@@ -1,0 +1,71 @@
+
+nav {
+ margin: 10px 0 0 420px;
+}
+
+nav ul {
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+nav ul li {
+ border-right: 1px solid #c02e24;
+ display: inline;
+ float: left;
+ font-size: 18px;
+ list-style: none;
+ /* margin: 0;
+  padding: 0; */
+ text-transform: uppercase;
+}
+
+form ul li:last-child {
+ border: 0;
+}
+
+nav ul li a {
+ color: #c02e24;
+ display: block;
+ padding: 12px 24px;
+ text-decoration: none;
+ transition-duration: .5s;
+ transition-property: background;
+ transition-timing-function: linear;
+}
+
+nav ul li a:hover {
+ text-decoration: none;
+ color: #fff;
+ background-color: #c02e24;
+}
+
+h3 {
+  font-size: 24px;
+  text-align: center;
+  color: #00f;
+  font-family: sans-serif;
+}
+
+form {
+  font-size: 22px;
+  margin: 20px 0 20px 0;
+  color: gray;
+}
+
+fieldset {
+  border: 15px solid darkred;
+}
+
+legend {
+  font-size: 28px;
+  color: darkblue;
+}
+
+header, footer{
+  background-color: #3b4455;
+  padding: 15px;
+  margin: auto;
+  color: #fff;
+  text-align: center;
+  font-family: cursive;
